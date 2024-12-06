@@ -16,9 +16,13 @@ int main() {
     int info;
     // TODO: Implement functionality
     // add input section 
-    printf("Input Your Data:\n",);
+    printf("Input Your Data:\n");
     scanf("%d", &info);
+    
+    // display your input data
+    printf("Your input data is=%d\n",info);
     printf("Hello, World!\n");
+
 
     return 0;
 }
