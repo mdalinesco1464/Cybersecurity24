@@ -13,7 +13,11 @@
  * @return int - Describe the return value
  */
 int main() {
+    int info;
     // TODO: Implement functionality
+    // add input section 
+    printf("Input Your Data:\n",);
+    scanf("%d", &info);
     printf("Hello, World!\n");
 
     return 0;
